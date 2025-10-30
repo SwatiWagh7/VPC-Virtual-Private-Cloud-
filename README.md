@@ -24,9 +24,10 @@ Private subnet:0.0.0.0/0-nat-xxxx (Network Address Translation Gateway).
 -	T2.micro
 -	Select key pair
 -	In Network settings
-      VPC -default.
-      Select Public subnet .
-      Auto assign Public IP -Enable.
+-	VPC -default.
+-	Select Public subnet .
+-	Auto assign Public IP -Enable.
+-	Create security group: HTTP (80) and ssh (22)
   
 <img width="1073" height="854" alt="image" src="https://github.com/user-attachments/assets/20fd0d67-f7af-4249-a992-f4fae438e6fa" />
 
