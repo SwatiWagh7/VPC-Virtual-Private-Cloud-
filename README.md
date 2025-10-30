@@ -9,9 +9,11 @@ Public Subnet and Private Subnet:
 <img width="735" height="536" alt="image" src="https://github.com/user-attachments/assets/19676e58-dbb9-4194-be1e-5ed21d38f865" />
 
 
-Public Subnet: A default VPC comes with a public subnet in each Availability Zone, which is accessible from the internet. This type of subnet has a direct route to an Internet Gateway, allowing resources within it to have direct access to and from the internet. Resources in a public subnet can be assigned a public IP address.
-Private Subnet: A VPC can be configured with only private subnets, where all resources require a gateway to connect to the internet or a VPN to connect to an on-premises network. This subnet does not have a direct route to an Internet Gateway. Resources in a private subnet can access the internet indirectly, typically by routing their traffic through a NAT gateway located in a public subnet. 
+## Public Subnet: A default VPC comes with a public subnet in each Availability Zone, which is accessible from the internet. This type of subnet has a direct route to an Internet Gateway, allowing resources within it to have direct access to and from the internet. Resources in a public subnet can be assigned a public IP address.
+## Private Subnet: A VPC can be configured with only private subnets, where all resources require a gateway to connect to the internet or a VPN to connect to an on-premises network. This subnet does not have a direct route to an Internet Gateway. Resources in a private subnet can access the internet indirectly, typically by routing their traffic through a NAT gateway located in a public subnet. 
+
 In EC2 Console there are subnets that is private subnet and public subnet but how to identify them by checking its route table
+
 Public subnet: 0.0.0.0/0 -igw-xxxx (internet gateway)
 Private subnet:0.0.0.0/0-nat-xxxx (Network Address Translation Gateway)
 
