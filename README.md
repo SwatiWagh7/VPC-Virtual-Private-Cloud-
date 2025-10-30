@@ -14,17 +14,18 @@ Private Subnet: A VPC can be configured with only private subnets, where all res
 In EC2 Console there are subnets that is private subnet and public subnet but how to identify them by checking its route table
 Public subnet: 0.0.0.0/0 -igw-xxxx (internet gateway)
 Private subnet:0.0.0.0/0-nat-xxxx (Network Address Translation Gateway)
-Create Public EC2 instance:
+
+## Create Public EC2 instance:
 -	Launch instance
 -	Name instance -Publicinstance
 -	Select Amazon linux
 -	T2.micro
 -	Select key pair
 -	In Network settings
-VPC -default
-Select Public subnet 
-Auto assign Public IP -Enable
-
+  VPC -default
+  Select Public subnet 
+  Auto assign Public IP -Enable
+  
 <img width="1073" height="854" alt="image" src="https://github.com/user-attachments/assets/20fd0d67-f7af-4249-a992-f4fae438e6fa" />
 
 Launch instance 
