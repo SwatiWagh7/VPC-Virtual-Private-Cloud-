@@ -14,8 +14,8 @@ Public Subnet and Private Subnet:
 
 In EC2 Console there are subnets that is private subnet and public subnet but how to identify them by checking its route table
 
-Public subnet: 0.0.0.0/0 -igw-xxxx (internet gateway)
-Private subnet:0.0.0.0/0-nat-xxxx (Network Address Translation Gateway)
+Public subnet: 0.0.0.0/0 -igw-xxxx (internet gateway).
+Private subnet:0.0.0.0/0-nat-xxxx (Network Address Translation Gateway).
 
 ## Create Public EC2 instance:
 -	Launch instance
