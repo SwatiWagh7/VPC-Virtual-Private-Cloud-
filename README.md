@@ -1,4 +1,4 @@
-# VPC-Virtual-Private-Cloud-Public-Subnet-and-Private-Subnet-Create-Public-EC2-instance
+# VPC(Virtual Private Cloud)|Public Subnet and Private Subnet|Create-Public-EC2-instance
 
 VPC: Virtual Private Cloud 
 The following diagram shows an example VPC. The VPC has one subnet in each of the Availability Zones in the Region, EC2 instances in each subnet, and an internet gateway to allow communication between the resources in your VPC and the internet.
